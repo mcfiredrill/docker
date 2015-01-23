@@ -149,6 +149,7 @@ Create a container
                "ReadonlyRootfs": false,
                "Dns": ["8.8.8.8"],
                "DnsSearch": [""],
+               "ExtraHosts": [""],
                "VolumesFrom": ["parent", "other:ro"],
                "CapAdd": ["NET_ADMIN"],
                "CapDrop": ["MKNOD"],
